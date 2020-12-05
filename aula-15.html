@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA  # 15| Background | Imagens </title>
+<link rel="stylesheet" href="titulo.css">
+<style>
+
+ 
+
+ /*-----------------------------------
+ BACKGROUNDS  CORES E IMAGENS 
+
+
+background-color        cor
+background-image        imagem
+background-position     posição
+background-size         tamanho
+background-repeat       repetição
+background-origin       origem - extender
+background-clip         clipar - recortar
+background-attachment   fixação - rolagem
+
+background: color image position/size repeat origin clip attachment
+ ------------------------------------*/
+ .tres{
+    padding: 20px;
+    /* background-image: url('./robo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+   background-origin: border-box;
+   background-clip: border-box;
+   background-attachment:fixed; */
+
+ background: url('./robo.png') 0 0 / cover no-repeat fixed;
+     
+
+}
+
+
+
+
+.tres p{
+    color:red;
+}
+
+.um p{
+    color:aliceblue;
+}
+.dois p{
+    /* padding-top: 60px; */
+    color: yellow;
+    background: rgba(0,0,0,0.3);
+}
+
+
+ .um{
+     border: 7px dotted darkorange;
+    background-color:blueviolet;
+ }
+
+ .dois{
+    background-image: url('./robo.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position:center ;
+     background-clip:border-box;
+     background-origin: border-box;
+     background-attachment: scroll;   
+ }
+
+ 
+
+</style>
+</head>
+<body>
+
+<header>
+    <h3>CURSO DE HTML |&nbsp;<span>aula &nbsp;#15</span> </h3>
+    <h4>COMO INSERIR BACKGROUNDS / COR - IMAGEM</h4>
+    <div class="contatos">
+        
+        <a href="http://www.facebook.com/groups/3816296831753843" target="_blank" id="fb" title="Grupo Top das Galáxias">Facebook</a>
+
+        <a href="https://www.youtube.com/channel/UCl5-W0A8tE3EucM7E_yS62A?sub_confirmation=1" target="_blank" id="yt" title="Inscrever-se ellsonmendesYT">Youtube</a>
+        
+    </div>
+</header>
+<hr>
+
+<!-- PRATICAR -->
+
+<section class="praticar">
+    <div class="tres">
+    <p>Vamos praticar  Vamos praticar  Vamos praticar  Vamos praticar Vamos praticar  Vamos praticar  Vamos praticar  Vamos praticar Vamos praticar  Vamos praticar  Vamos praticar  Vamos praticar Vamos praticar  Vamos praticar  Vamos praticar  Vamos praticar Vamos praticar  Vamos praticar  Vamos praticar  Vamos praticar Vamos praticar  Vamos praticar  </p>
+</div>
+</section>
+
+<section id="container">
+ <div class="border-box" title="border-box">
+   <div class="padding-box" title="padding-box">
+       <div class="content-box" title="content-box">
+           <p title="parágrafo">Grupo para discutir, tirar dúvidas e solucionar problemas</p>
+       </div>
+   </div>
+ </div>
+</section>
+
+
+<!-- EXEMPLOS -->
+
+<main>
+ <div class="um">
+   <p>PodemoS dar um cor de fundo</p>
+ </div>
+<!--  -->
+<div class="dois">
+    <p>Podemos inserir um imagem de fundo</p>
+</div>
+
+</div>
+</main>
+
+<!-- botao teste -->
+
+
+<section class="exemplo">
+    <div class="grupo"></div>
+</section>
+
+<section class="videos">
+    <img src="./vids.png" alt="videos">
+</section>
+
+</body>
+</html>
+
+<!-- onclick="location.href='http://www.facebook.com/groups/3816296831753843'"  -->
